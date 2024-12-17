@@ -1,8 +1,8 @@
 body{
 	margin:0px;
 }
-.nav{
-	height: 80px;
+nav{
+	height: 100px;
 	background-color: black;
 	display:flex;
 	justify-content: space-around;
@@ -11,9 +11,7 @@ body{
 	position: sticky;
 	top:0;
 }
-.nav-logo{
-	font-size: 30px;
-}
+
 .nav-item{
 	font-size: 20px;
 	font-weight: 700;
@@ -28,7 +26,7 @@ a{
 	color:white;
 }
 
-.main{
+main{
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
@@ -36,6 +34,10 @@ a{
 	color: rgb(8, 214, 8);
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://www-growth.scdn.co/static/home/bursts.svg");
+	background-size: cover;             /* 이미지 크기 조정 */
+    background-repeat: no-repeat;       /* 이미지 반복 방지 */
+    background-position: center;       /* 이미지 위치 조정 */
 }
 .main-1{
 	font-size: 150px;
@@ -60,7 +62,7 @@ a:hover{
 	color:rgb(48, 255, 176);
 }
 
-.main{
+main{
 	height: 969px;
 	background-color: rgb(47, 66, 154);
 }
@@ -80,7 +82,7 @@ a:hover{
 	justify-content: center;
 }
 
-.footer{
+footer{
 	height: 530px;
 	background-color: black;
 	color:white;
